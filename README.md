@@ -1,4 +1,4 @@
-# OHBM-OSSIG Reproducibility Challenge Website
+# ossig-reprochallenge
 
 Static website for the OHBM-OSSIG Reproducibility Challenge, built with [Eleventy (11ty)](https://www.11ty.dev/), Nunjucks templates, plain CSS, and vanilla JavaScript.
 
@@ -16,6 +16,8 @@ npm install
 npx @11ty/eleventy --serve
 ```
 
+Open http://localhost:8080/ossig-reprochallenge/.
+
 ## Deployment
 
 GitHub Actions workflow is defined in `.github/workflows/deploy.yml`:
@@ -24,13 +26,17 @@ GitHub Actions workflow is defined in `.github/workflows/deploy.yml`:
 - Build: `npx @11ty/eleventy`
 - Deploy target: `gh-pages` branch
 
+In the upstream repository's **Settings → Pages**, use **Deploy from a branch**
+with the `gh-pages` branch and `/ (root)` folder. The Eleventy base path is
+`/ossig-reprochallenge/`, matching the repository name.
+
 ## Repository
 
-https://github.com/ohbm/reprochallenge2026
+https://github.com/ohbm/ossig-reprochallenge
 
 ## Website
 
-https://ohbm.github.io/reprochallenge2026/
+https://ohbm.github.io/ossig-reprochallenge/
 
 ## More Info
 

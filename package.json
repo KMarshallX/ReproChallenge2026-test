@@ -1,5 +1,5 @@
 {
-  "name": "ossig-reproducibility-challenge-site",
+  "name": "ossig-reprochallenge",
   "version": "1.0.0",
   "private": true,
   "description": "OHBM-OSSIG Reproducibility Challenge website built with Eleventy",

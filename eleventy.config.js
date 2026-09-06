@@ -6,6 +6,6 @@ module.exports = function(eleventyConfig) {
       input: "src",
       output: "_site"
     },
-    pathPrefix: "/reprochallenge2026/"
+    pathPrefix: "/ossig-reprochallenge/"
   };
 };
